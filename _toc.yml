@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: conteudo/introducao
+root: conteudo/intro
 parts:
 - caption: Prefácio
   chapters:

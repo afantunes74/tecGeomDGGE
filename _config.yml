@@ -37,7 +37,7 @@ latex:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-    - conteudo/referencias.bib
+    - referencias.bib
 
 ##################################################################################
 # Launch button settings

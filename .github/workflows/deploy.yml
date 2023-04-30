@@ -4,7 +4,8 @@ on:
   # Trigger the workflow on push to main branch
   push:
     branches:
-      - master
+      #- master
+      - 0.1.0
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:

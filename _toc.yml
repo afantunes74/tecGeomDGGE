@@ -6,12 +6,12 @@ root: intro
 parts:
 - caption: Prefácio
   chapters:
-  - file: sobre
+  - file: conteudo/sobre
 - caption: Solução de Problemas com Projeções Ortográficas
   numbered: true
   chapters:
-  - file: mergulhos_aparentes
-  - file: referencias
+  - file: conteudo/mergulhos_aparentes
+  - file: conteudo/referencias
 - caption: Info
   chapters:
   - file: changelog

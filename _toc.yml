@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: conteudo/introducao
+parts:
+- caption: Prefácio
+  chapters:
+  - file: conteudo/sobre
+- caption: Solução de Problemas com Projeções Ortográficas
+  numbered: true
+  chapters:
+  - file: conteudo/mergulhos_aparentes
+  - file: conteudo/referencias
+- caption: Info
+  chapters:
+  - file: conteudo/changelog

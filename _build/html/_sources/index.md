@@ -1,5 +1,4 @@
-# tecGeomDGGE
-## Técnicas Geométricas de Desenho Geológico e Geologia Estrutural
+# tecGeomDGGE: Técnicas Geométricas de Desenho Geológico e Geologia Estrutural
 
 **Conjunto de recursos didáticos auxiliares utilizados na solução de diversos problemas relacionados a Desenho Geológico e Geologia Estrutural.**
 

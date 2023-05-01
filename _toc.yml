@@ -11,7 +11,7 @@ parts:
   numbered: true
   chapters:
   - file: conteudo/mergulhos_aparentes
-  - file: conteudo/referencias
 - caption: Info
   chapters:
-  - file: changelog
+  - file: conteudo/referencias
+  - file: conteudo/changelog

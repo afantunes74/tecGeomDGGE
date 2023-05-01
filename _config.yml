@@ -5,7 +5,7 @@
 
 ##################################################################################
 # Book settings. Learn more at https://jupyterbook.org/customize/config.html
-title                       : tecGeomDGGE - Técnicas Geométricas de Desenho Geológico e Geologia Estrutural
+title                       : Técnicas Geométricas de Desenho Geológico e Geologia Estrutural - tecGeomDGGE
 author                      : Alex F. Antunes
 copyright                   : "2023"
 logo                        : logo.png
@@ -33,11 +33,11 @@ mystnb:
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
-    targetname              : tecGeomDGGE.tex
+    targetname              : latex/tecGeomDGGE.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-    - conteudo/referencias.bib
+    - latex/referencias.bib
 
 ##################################################################################
 # Launch button settings

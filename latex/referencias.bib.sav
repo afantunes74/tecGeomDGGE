@@ -1,21 +1,20 @@
 % Encoding: UTF-8
-
-@Book{Bennison2013,
+@Book{Bennison2011,
   author    = {Bennison, G. M. and Olver, P. A. and Moseley, A. K.},
-  publisher = {Hodder Education Publishers},
   title     = {An Introduction to Geological Structures and Maps},
-  year      = {2013},
-  isbn      = {978-1444112122},
+  title     = {An Introduction to Geological Structures and Maps},
+  publisher = {Hodder Education Publishers},
   pages     = {184},
+  isbn      = {978-1444112122},
 }
 
 @Book{Ragan2009,
   author    = {Ragan, D. M.},
-  publisher = {Cambridge University Press},
-  title     = {Structural Geology: an Introduction to Geometrical Techniques},
   year      = {2009},
-  isbn      = {978-0521745833},
+  title     = {Structural Geology: an Introduction to Geometrical Techniques},
+  publisher = {Cambridge University Press},
   pages     = {602},
+  isbn      = {978-0521745833},
 }
 
 @Book{Rowland2007,
@@ -26,5 +25,3 @@
   pages     = {301},
   isbn      = {978-3642008641},
 }
-
-@Comment{jabref-meta: databaseType:bibtex;}

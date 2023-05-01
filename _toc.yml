@@ -3,15 +3,28 @@
 
 format: jb-book
 root: index
+
 parts:
-- caption: Prefácio
+- caption: PREFÁCIO
   chapters:
   - file: conteudo/sobre
-- caption: Solução de Problemas com Projeções Ortográficas
-  numbered: true
+
+- caption: SOLUÇÃO DE PROBLEMAS COM PROJEÇÕES ORTOGRÁFICAS
+  numbered: false
   chapters:
-  - file: conteudo/mergulhos_aparentes
-- caption: Info
+  - file: conteudo/mergulhos_aparentes_orto
+
+- caption: SOLUÇÃO DE PROBLEMAS COM TRIGONOMETRIA
+  numbered: false
+  chapters:
+  - file: conteudo/mergulhos_aparentes_trig
+
+- caption: EXERCÍCIOS
+  numbered: false
+  chapters:
+  - file: conteudo/exercicios/mergulhos_aparentes
+
+- caption: INFO
   chapters:
   - file: conteudo/referencias
-  - file: conteudo/changelog
+  - file: changelog

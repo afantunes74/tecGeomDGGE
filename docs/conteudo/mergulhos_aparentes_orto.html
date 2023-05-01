@@ -1,0 +1,613 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Mergulhos Aparentes &#8212; Técnicas Geométricas de Desenho Geológico e Geologia Estrutural - tecGeomDGGE</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'conteudo/mergulhos_aparentes_orto';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="2. Mergulhos Aparentes" href="mergulhos_aparentes_trig.html" />
+    <link rel="prev" title="Bem-vindo a tecGeomDGGE!" href="sobre.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    tecGeomDGGE: Técnicas Geométricas de Desenho Geológico e Geologia Estrutural
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">PREFÁCIO</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="sobre.html">Bem-vindo a <strong>tecGeomDGGE</strong>!</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SOLUÇÃO DE PROBLEMAS COM PROJEÇÕES ORTOGRÁFICAS</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">1. Mergulhos Aparentes</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SOLUÇÃO DE PROBLEMAS COM TRIGONOMETRIA</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="mergulhos_aparentes_trig.html">2. Mergulhos Aparentes</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">EXERCÍCIOS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="exercicios/mergulhos_aparentes.html">3. Exercícios envolvendo mergulhos aparentes</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">INFO</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="referencias.html">Referências</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=lab/tree/conteudo/mergulhos_aparentes_orto.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="btn__text-container">Live Code</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/conteudo/mergulhos_aparentes_orto.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Mergulhos Aparentes</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhece-um-mergulho-aparente">1.1. Determinação do mergulho verdadeiro quando se conhece um mergulho aparente</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhecem-dois-mergulhos-aparentes">1.2. Determinação do mergulho verdadeiro quando se conhecem dois mergulhos aparentes</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#mergulhos-aparentes" id="id3">Mergulhos Aparentes</a></p>
+<ul>
+<li><p><a class="reference internal" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhece-um-mergulho-aparente" id="id4">Determinação do mergulho verdadeiro quando se conhece um mergulho aparente</a></p></li>
+<li><p><a class="reference internal" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhecem-dois-mergulhos-aparentes" id="id5">Determinação do mergulho verdadeiro quando se conhecem dois mergulhos aparentes</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="mergulhos-aparentes">
+<h1><a class="toc-backref" href="#id3">Mergulhos Aparentes</a><a class="headerlink" href="#mergulhos-aparentes" title="Permalink to this headline">#</a></h1>
+<p>Na extração da atitude de planos com bússolas, via de regra o mergulho de uma superfície inclinada é medido ortogonalmente à direção da estrutura. Caso essa premissa seja atendida, estaremos medindo o <strong>mergulho verdadeiro</strong> daquela superfície.</p>
+<p>No entanto, não são raras as situações em que não seja possível medir diretamente o mergulho verdadeiro de uma superfície geológica. Em muitos casos, os planos das camadas podem não estar apropriadamente expostos, mas apenas os seus traços.</p>
+<div class="note admonition">
+<p class="admonition-title">Nota</p>
+<p>Traço é a linha formada pela interseção de duas superfícies.</p>
+</div>
+<p>É muito comum que exposições de rochas (como em falésias, cortes de estrada, paredes de galerias <em>etc</em>.) estejam orientadas em quaisquer ângulos relativamente à direção das camadas. Se essas exposições não forem perpendiculares à direção da superfície geólogica de interesse, então serão medidos <strong>mergulhos aparentes</strong> dessas superfícies nas exposições. É importante notar que para uma dada superfície, os mergulhos aparentes medidos em diferentes cortes sempre serão menores que o respectivo mergulho verdadeiro.</p>
+<p>A relação entre o mergulho aparente e o mergulho verdadeiro de uma camada depende da direção do corte vertical arbitrário que intercepta as camadas. Ou seja, a razão entre o mergulho aparente e o mergulho verdadeiro é proporcional à obliquidade entre a seção em que o mergulho aparente é medido e:</p>
+<ul class="simple">
+<li><p>a seção em que o mergulho verdadeiro é medido;</p></li>
+<li><p>ou a direção da respectiva superfície geológica.</p></li>
+</ul>
+<p>Existem várias formas de determinar o mergulho verdadeiro de uma superfície geológica, dados um ou dois mergulhos aparentes. Nesse capítulo, serão utilizadas <strong>projeções ortográficas</strong>.</p>
+<div class="important admonition">
+<p class="admonition-title">Importante!</p>
+<p>Sempre antes de se tentar resolver os problemas, inicialmente é importante construir uma visão tridimensional dele, lançando mão das informações dadas (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>a).</p>
+<p>Desenhe de forma esquemática a linha de direção da estrutura geológica (um contato, por exemplo), bem como o traço do corte vertical no qual deve ser medido ou determinado o mergulho verdadeiro da estrutura. Lembre que essas duas linhas perfazem um ângulo reto entre si. Desenhe na mesma figura o traço do corte ou perfil no qual o mergulho aparente é observado, medido ou determinado. Esses três segmentos de retas deverão constituir as arestas de um triângulo retângulo, tal que o vértice que contém o ângulo reto seja formado entre a linha de direção e o corte do mergulho verdadeiro. Atente que esse triângulo retângulo é horizontal e, no campo, estaria contido no piso de um afloramento.</p>
+</div>
+<div class="note admonition">
+<p class="admonition-title">Nota</p>
+<p>Esse desenho esquemático ajudará a visualizar em mapa de forma preliminar os dados do problema. Mesmo sendo esquemático, procure desenhar as três linhas de forma que estejam corretamente orientadas, ainda que aproximadamente, em relação ao norte verdadeiro. Somente passe para a resolução exata do problema estiver confiante de sua construção.</p>
+<p><strong>Lembre que o primeiro passo para solucionar um problema é entendê-lo!</strong></p>
+</div>
+<div class="section" id="determinacao-do-mergulho-verdadeiro-quando-se-conhece-um-mergulho-aparente">
+<h2><a class="toc-backref" href="#id4">Determinação do mergulho verdadeiro quando se conhece um mergulho aparente</a><a class="headerlink" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhece-um-mergulho-aparente" title="Permalink to this headline">#</a></h2>
+<p>Inicialmente, abordaremos o caso em que queremos determinar o valor do mergulho verdadeiro (<span class="math notranslate nohighlight">\(\delta\)</span>) de uma superfície geológica, dado o valor de um mergulho aparente (<span class="math notranslate nohighlight">\(\delta'\)</span>). Além disso, também será necessária pelo menos uma das informações a seguir:</p>
+<ul class="simple">
+<li><p>Os azimutes do traço do corte em que foi medido o mergulho aparente e do traço do corte em que foi medido o mergulho verdadeiro. A partir dessas informações, pode-se determinar o ângulo agudo (<span class="math notranslate nohighlight">\(\alpha\)</span>) formado entre essas duas linhas;</p></li>
+<li><p>Os azimutes do traço do corte em que foi medido o mergulho aparente e da linha de direção da superfície geológica. A partir dessas informações, pode-se determinar o ângulo agudo (<span class="math notranslate nohighlight">\(\beta\)</span>) formado entre essas duas linhas;</p></li>
+<li><p>Os azimutes do traço do corte em que foi medido o mergulho aparente, ou traço do corte em que foi medido o mergulho verdadeiro ou da linha de direção da superfície geológica e um dos ângulos <span class="math notranslate nohighlight">\(\alpha\)</span> ou <span class="math notranslate nohighlight">\(\beta\)</span>.</p></li>
+</ul>
+<p>Agora, siga o passo-a-passo seguinte para solucionar o problema:</p>
+<ol class="arabic simple">
+<li><p>Empregando as ferramentas apropriadas (esquadros, transferidor, compasso), desenhe em mapa a linha de direção e os traços dos cortes em que são identificados os mergulhos verdadeiro e aparente, de maneira que as três linhas correspondam às arestas do triângulo retângulo (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>b) conforme esquematizado inicialmente. Esses segmentos de reta devem estar devidamente orientados em relação ao norte verdadeiro. Uma vez mais, identifique e anote corretamente os ângulos <span class="math notranslate nohighlight">\(\alpha\)</span> e <span class="math notranslate nohighlight">\(\beta\)</span> nos vértices do triângulo. Para auxiliar no entendimento dos passos seguintes, chame o vértice com o ângulo <span class="math notranslate nohighlight">\(\alpha\)</span> de <span class="math notranslate nohighlight">\(\rm{A}\)</span>, o vértice com o ângulo <span class="math notranslate nohighlight">\(\beta\)</span> de <span class="math notranslate nohighlight">\(\rm{B}\)</span> e o vértice com o ângulo reto de <span class="math notranslate nohighlight">\(\rm{O}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>b);</p></li>
+</ol>
+<div class="note admonition">
+<p class="admonition-title">Nota</p>
+<p>O segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{OB}}\)</span> corresponde à linha de direção da superfície geológica. O segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{OA}}\)</span> corresponde ao traço do corte vertical em que é medido (ou determinado) o mergulho verdadeiro, enquanto que o segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{AB}}\)</span> representa o traço do corte vertical em que é medido (ou determinado) o mergulho aparente (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>b).</p>
+</div>
+<div class="important admonition">
+<p class="admonition-title">Importante!</p>
+<p>Os segmentos de reta <span class="math notranslate nohighlight">\(\overline{\rm{OA}}\)</span> e <span class="math notranslate nohighlight">\(\overline{\rm{AB}}\)</span> servirão de linhas de dobradura por meio das quais os respectivos cortes serão rebatidos para a horizontal (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>c), constituindo uma épura (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>d). Quando isso acontecer, os ângulos verticais <span class="math notranslate nohighlight">\(\delta\)</span> e <span class="math notranslate nohighlight">\(\delta'\)</span> passarão a ser medidos na horizontal.</p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Trace uma reta com ângullo <span class="math notranslate nohighlight">\(\delta'\)</span> em relação ao segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{AB}}\)</span> e com origem no vértice <span class="math notranslate nohighlight">\(\rm{A}\)</span>. Essa reta representa o traço da superfície (plano) geológica no corte vertical em que foi medido o mergulho aparente (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>d);</p></li>
+<li><p>Pelo vértice <span class="math notranslate nohighlight">\(\rm{B}\)</span>, trace uma nova reta perpendicular ao segmento <span class="math notranslate nohighlight">\(\overline{\rm{AB}}\)</span> e que intercepte a reta traçada no passo 2. Chame o cruzamento dessas reta de <span class="math notranslate nohighlight">\(\rm{P}\)</span>. O comprimento do segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{BP}}\)</span> é igual a <span class="math notranslate nohighlight">\(\rm{d}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>d);</p></li>
+<li><p>Pelo vértice <span class="math notranslate nohighlight">\(\rm{O}\)</span>, trace uma reta ortogonal ao segmento <span class="math notranslate nohighlight">\(\overline{\rm{OA}}\)</span> e marque nele a distância <span class="math notranslate nohighlight">\(\rm{d}\)</span> determinada no passo 3. Chame esse ponto de <span class="math notranslate nohighlight">\(\rm{Q}\)</span> e trace um segmento de reta unindo os pontos <span class="math notranslate nohighlight">\(\rm{A}\)</span> e <span class="math notranslate nohighlight">\(\rm{Q}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>e);</p></li>
+<li><p>Pronto! O ângulo agudo formado entre os segmentos de reta <span class="math notranslate nohighlight">\(\overline{\rm{OA}}\)</span> e <span class="math notranslate nohighlight">\(\overline{\rm{AQ}}\)</span> é o mergulho verdadeiro da superfície geológica (<a class="reference internal" href="#mergulho-aparente-rowland1"><span class="std std-numref">Figura 1</span></a>e).</p></li>
+</ol>
+<div class="figure align-default" id="mergulho-aparente-rowland1">
+<a class="reference internal image-reference" href="../_images/mergulho_aparente_rowland1.png"><img alt="../_images/mergulho_aparente_rowland1.png" src="../_images/mergulho_aparente_rowland1.png" style="width: 720px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">A determinação do valor do mergulho verdadeiro (<span class="math notranslate nohighlight">\(\delta\)</span>) de uma superfície geológica pode ser solucionada pela utilização de projeções ortográficas. O primeiro passo para solução é entender o problema, passando pela contrução de uma visão tridimensional (a). Sempre que possível, procure construir mais de uma visão 3D, com diferentes visadas, a exemplo do exibido em (a). Em seguida, passe para a visão de mapa (b), de forma a projetar o piso do bloco diagrama no plano horizontal. Posicionar corretamente as retas relativas à linha de direção (segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{OB}}\)</span>), ao traço do corte em que pode ser medido o mergulho verdadeiro <span class="math notranslate nohighlight">\(\delta\)</span> ((segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{OA}}\)</span>)) e ao traço do corte em que é medido o mergulho aparente <span class="math notranslate nohighlight">\(\delta'\)</span> (segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{AB}}\)</span>) é essencial para resolução do problema. Os segmentos de reta <span class="math notranslate nohighlight">\(\overline{\rm{OA}}\)</span> e <span class="math notranslate nohighlight">\(\overline{\rm{AB}}\)</span> funcionam como linhas de dobradura (c) em torno das quais os cortes que contêm <span class="math notranslate nohighlight">\(\delta\)</span> e <span class="math notranslate nohighlight">\(\delta'\)</span> serão rebatidos para o plano horizontal, constituindo uma épura (d, e) dos blocos diagramas exibidos em (a). Adaptado de <span id="id1">[<a class="reference internal" href="referencias.html#id4" title="S. M. Rowland, E. M. Duebendorfer, and I. M. Schiefelbein. Structural Analysis and Synthesis: a Laboratory Course in Structural Geology. Blackwell Publishing Ltd, 2007. ISBN 978-3642008641.">Rowland <em>et al.</em>, 2007</a>]</span>.</span><a class="headerlink" href="#mergulho-aparente-rowland1" title="Permalink to this image">#</a></p>
+</div>
+</div>
+<div class="section" id="determinacao-do-mergulho-verdadeiro-quando-se-conhecem-dois-mergulhos-aparentes">
+<h2><a class="toc-backref" href="#id5">Determinação do mergulho verdadeiro quando se conhecem dois mergulhos aparentes</a><a class="headerlink" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhecem-dois-mergulhos-aparentes" title="Permalink to this headline">#</a></h2>
+<p>Também é possível determinar o mergulho verdadeiro de uma superfície sendo conhecidos dois mergulhos aparentes dessa superfície, medidos em dois cortes verticais não paralelos. Para esse caso, são necessárias as seguintes informações na solução do problema:</p>
+<ul class="simple">
+<li><p>os valores dos mergulhos aparentes medidos em cada corte;</p></li>
+<li><p>os azimutes de cada corte.</p></li>
+</ul>
+<p>Uma vez mais, para facilitar a solução do problema e antes de utilizar o algoritmo seguinte, desenhe de forma esquemática as informações fornecidas, tal como nos problemas anteriores.</p>
+<p>Para a solução do problema, chamaremos arbitrariamente os mergulhos aparentes de <span class="math notranslate nohighlight">\(\delta'_{1}\)</span> e <span class="math notranslate nohighlight">\(\delta'_{2}\)</span>, medidos, respectivamente nos cortes 1 e 2 (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>).</p>
+<ol class="arabic simple">
+<li><p>Trace, em mapa e de forma devidamente orientada em relação ao norte verdadeiro, as retas horizontais que representam no terreno os traços dos cortes 1 e 2. Chame o ponto de interseção dessas retas de <span class="math notranslate nohighlight">\(\rm{O}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>b);</p></li>
+<li><p>Tendo-se os traços dos cortes 1 e 2 como referência e a partir do ponto <span class="math notranslate nohighlight">\(\rm{O}\)</span>, desenhe duas novas retas com ângulos iguais a <span class="math notranslate nohighlight">\(\delta'_{1}\)</span> e <span class="math notranslate nohighlight">\(\delta'_{2}\)</span> em relação a seus respectivos traços (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>c). Essas novas retas correspondem aos traços da superfície (plano) geológica nos respectivos cortes verticais em que foram medidos os mergulhos aparentes;</p></li>
+<li><p>Escolha um dos cortes (corte 1, por exemplo) e trace, em uma posição arbitrária, uma reta perpendicular ao traço horizontal do corte e que intercepte a respectiva reta correspondente ao traço da superfície geológica no corte vertical. O comprimento dessa nova reta é igual a <span class="math notranslate nohighlight">\(\rm{d}\)</span>. Chame sua extremidade de <span class="math notranslate nohighlight">\(\rm{P}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>d);</p></li>
+<li><p>No corte remanescente, trace de forma análoga e em uma posição asbitrária uma reta perpendicular ao traço horizontal do corte e que também intercepte a respectiva reta correspondente ao traço da superfície geológica nesse corte. Tenha certeza que essa reta tenha comprimento maior que <span class="math notranslate nohighlight">\(\rm{d}\)</span>. A partir do traço horizontal do corte, marque a distância <span class="math notranslate nohighlight">\(\rm{d}\)</span>. Projete essa distância, até que ela intercepte o traço inclinado da superfície geológica. Chame o ponto de interseção de <span class="math notranslate nohighlight">\(\rm{Q}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>d);</p></li>
+<li><p>A projeção dos pontos <span class="math notranslate nohighlight">\(\rm{P}\)</span> e <span class="math notranslate nohighlight">\(\rm{Q}\)</span> na superfície horizontal são, respectivamente, os pontos <span class="math notranslate nohighlight">\(\rm{X}\)</span> e <span class="math notranslate nohighlight">\(\rm{Y}\)</span>. Trace uma reta unindo os pontos <span class="math notranslate nohighlight">\(\rm{X}\)</span> e <span class="math notranslate nohighlight">\(\rm{Y}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>e). Essa reta corresponde à linha de direção da superfície geológica.</p></li>
+</ol>
+<div class="note admonition">
+<p class="admonition-title">Nota</p>
+<p>Se desejar (ou se for necessário), meça o ângulo horário que essa linha perfaz com o norte verdadeiro. Esse ângulo corresonde ao azimute da linha de direção.</p>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Passando pelo ponto <span class="math notranslate nohighlight">\(\rm{O}\)</span>, trace uma reta perpencular à linha de direção (ou seja ao segmento de reta <span class="math notranslate nohighlight">\(\overline{\rm{XY}}\)</span>). Essa nova reta corresponde ao traço do corte em que será determinado o mergulho verdadeiro <span class="math notranslate nohighlight">\(\delta\)</span> da superfície gelógica. Para conveniência, chame a interseção da linha de direção com o corte em que será determinado o mergulho verdadeiro de <span class="math notranslate nohighlight">\(\rm{R}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>f);</p></li>
+</ol>
+<div class="important admonition">
+<p class="admonition-title">Importante!</p>
+<p>Lembre que o mergulho verdadeiro sempre é medido em um corte vertical perpendicular à direção da superfície geológica.</p>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Ao longo da linha de direção e a partir do ponto <span class="math notranslate nohighlight">\(\rm{R}\)</span>, marque a distância <span class="math notranslate nohighlight">\(\rm{d}\)</span> e identifique esse ponto como <span class="math notranslate nohighlight">\(\rm{T}\)</span> (<a class="reference internal" href="#mergulho-aparente-rowland2"><span class="std std-numref">Figura 2</span></a>f). Feito! O ângulo agudo formado entre os segmentos de reta <span class="math notranslate nohighlight">\(\overline{\rm{OT}}\)</span> e <span class="math notranslate nohighlight">\(\overline{\rm{OR}}\)</span> é o mergulho verdadeiro <span class="math notranslate nohighlight">\(\delta\)</span>!</p></li>
+</ol>
+<div class="figure align-default" id="mergulho-aparente-rowland2">
+<a class="reference internal image-reference" href="../_images/mergulho_aparente_rowland2.png"><img alt="../_images/mergulho_aparente_rowland2.png" src="../_images/mergulho_aparente_rowland2.png" style="width: 720px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Procedimento similar ode ser utilizado para se determinar o mergulho verdadeiro (<span class="math notranslate nohighlight">\(\delta\)</span>) de uma superfície geológica dados dois mergulhos aparentes (<span class="math notranslate nohighlight">\(\delta'_{1}\)</span> e <span class="math notranslate nohighlight">\(\delta'_{2}\)</span>) medidos em dois cortes não paralelos e oblíquos à direção da estrutura. Tal como no problema anterior, inicie construindo visualizações tridimensionais do problema, preferencialmente com mais de uma visada (a), em seguida passe para a construção 2D em mapa (b). Na projeção ortográfica, os mergulhos aparentes constituirão ângulos horizontais medidos a partir dos traços dos respectivos cortes em que foram medidos (c). As épuras são completas com a definição da distância <span class="math notranslate nohighlight">\(\rm{d}\)</span> em ambos os cortes (d) e o traçado da linha de direção da superfície geológica (e). Finalmente determina-se o mergulho verdadeiro com a marcação da distância <span class="math notranslate nohighlight">\(\rm{d}\)</span> ao longo da linha de direção (f). Adaptado de <span id="id2">[<a class="reference internal" href="referencias.html#id4" title="S. M. Rowland, E. M. Duebendorfer, and I. M. Schiefelbein. Structural Analysis and Synthesis: a Laboratory Course in Structural Geology. Blackwell Publishing Ltd, 2007. ISBN 978-3642008641.">Rowland <em>et al.</em>, 2007</a>]</span>.</span><a class="headerlink" href="#mergulho-aparente-rowland2" title="Permalink to this image">#</a></p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "executablebooks/jupyter-book",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./conteudo"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="sobre.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Bem-vindo a <strong>tecGeomDGGE</strong>!</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="mergulhos_aparentes_trig.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">2. </span>Mergulhos Aparentes</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhece-um-mergulho-aparente">1.1. Determinação do mergulho verdadeiro quando se conhece um mergulho aparente</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determinacao-do-mergulho-verdadeiro-quando-se-conhecem-dois-mergulhos-aparentes">1.2. Determinação do mergulho verdadeiro quando se conhecem dois mergulhos aparentes</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Alex F. Antunes
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

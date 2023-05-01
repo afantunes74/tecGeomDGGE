@@ -1,4 +1,4 @@
-# Bem-vindo a **tecGeomDGGE**!
+# Bem-Vindos a tecGeomDGGE!
 
 Os recursos de **tecGeomDGGE: Técnicas Geométricas de Desenho Geológico e Geologia Estrutural** foram preparados com tendo em mente especialmente alunos de bacharelado em Geologia, servindo como material didático auxiliar para as componentes curriculares *GEO0406 Desenho Geológico* e *GEO0306 Geologia Estrutural I*. No entanto, espera-se que o material aqui apresentado seja igualmente útil para graduandos de outros cursos.
 
@@ -6,7 +6,7 @@ O objetivo principal de **tecGeomDGGE** é apresentar diferentes formas de soluc
 
 De forma geral, procurou-se organizar os recursos em uma sequência lógica, progressiva, para que o conhecimento seja gradativamente construído à medida que o leitor for avançando nos capítulos. Sempre que possível e/ou pertinente foram incluídos exercícios para consolidação dos conteúdos.
 
-Esse é um trabalho em contrução e se encontra ainda em seus estágios embrionários de desenvolvimento, de modo que passará por constantes atualizações e mudanças no futuro próximo. Assim, recomenda-se que confiram regularmente a sessão [ChangeLog](changes) para acompanhamento do que há de novo em **tecGeomDGGE**.
+Esse é um trabalho em contrução e se encontra ainda em seus estágios embrionários de desenvolvimento, de modo que passará por constantes atualizações e mudanças no futuro próximo. Assim, recomenda-se que confiram regularmente o [Registro de Atualizações](change_log) para acompanhamento do que há de novo em **tecGeomDGGE**.
 
 Espero que o material aqui apresentado seja útil para vocês. Aproveitem e divirtam-se com ele!
 

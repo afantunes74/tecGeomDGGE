@@ -1,5 +1,0 @@
-# Referências
-
-```{bibliography}
-:style: plain
-```
